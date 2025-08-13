@@ -6,7 +6,7 @@ import Button from "../CommonComponent/Button";
 const navbar = () => {
   return (
     <>
-      <div className="bg-[#FFFAF0] py-6">
+      <div className="bg-[#FFFCF6] py-6">
         <nav className="container mx-auto">
           <div className="flex items-center justify-between">
             <div>
