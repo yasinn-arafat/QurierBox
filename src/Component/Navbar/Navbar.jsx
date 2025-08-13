@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/Logo.png";
 import { IoSearch } from "react-icons/io5";
+import Button from "../CommonComponent/Button";
 
 const navbar = () => {
   return (
@@ -54,8 +55,10 @@ const navbar = () => {
                 <div className="p-3.5 bg-[#FFEDC9] text-[#FFAF0F] text-2xl font-bold rounded">
                   <IoSearch />
                 </div>
-                <div className="px-5 py-3 bg-[#FFE4D9] font-oxanium text-[#F95C19] text-xl font-bold rounded">
-                  <button>Contact us</button>
+                <div>
+                  <Button className="px-5 py-3 bg-[#FFE4D9] font-oxanium text-[#F95C19] text-xl font-bold rounded">
+                    Contact us
+                  </Button>
                 </div>
               </div>
             </div>
