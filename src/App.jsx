@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Component/Navbar/Navbar";
 import Banner from "./Component/Banner/Banner";
+import Service from "./Component/Service/Service";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div>
         <Navbar />
         <Banner />
+        <Service />
       </div>
     </>
   );

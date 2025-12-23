@@ -10,10 +10,10 @@ const Banner = () => {
         <div className="container mx-auto">
           <div className="flex items-center justify-between">
             <div>
-              <div className="w-[467px] pb-4 text-5xl text-[#261134] font-raleway">
+              <div className="w-[467px] pb-4 text-5xl text-[#261134] font-raleway font-normal ">
                 <h1>
                   A trusted provider of
-                  <span className="font-extrabold">courier services.</span>
+                  <span className="font-extrabold"> courier services.</span>
                 </h1>
               </div>
               <p className="pb-10 w-[330px] text-xl text-[#4D4D4D] font-raleway font-normal">
