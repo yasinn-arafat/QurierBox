@@ -11,15 +11,15 @@ const ServiceCard = ({
 }) => {
   return (
     <>
-      <div className="w-[424px] h-[583px] py-[60px] px-[60px] bg-white ">
+      <div className="w-1/3 h-[583px] py-[60px] px-[60px] bg-white ">
         <div className="text-center  ">
-          <div className="bg-black absolute inline-block w-[69px] h-[67px]">
-            <span className="inline-block relative text-6xl text-[#F95C19] ">
+          <div>
+            <span className="inline-block text-6xl text-[#F95C19] ">
               {icon ? icon : <GrDocumentMissing />}
             </span>
           </div>
           <div>
-            <h1 className="pt-7 pb-8 text-[25px] text-[#464558] font-raleway font-extrabold ">
+            <h1 className="mt-7 pb-8 text-2xl text-[#464558] font-raleway font-extrabold ">
               {CardTitle ? CardTitle : "Title"}
             </h1>
           </div>
